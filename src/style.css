@@ -7,3 +7,16 @@ body {
   padding: 0;
   height: 100vh;
 }
+
+header {
+  height: 2rem;
+  background-color: green;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.travel-log {
+  max-width: 70%;
+}
