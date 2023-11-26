@@ -6,17 +6,110 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* LAYOUT */
+
 header {
-  height: 2rem;
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  background: linear-gradient(to right, #0d650d, #0f9b0f);
+  margin-top: 0;
+  padding: 1em;
+  gap: 1em;
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
 }
 
 .travel-log {
-  max-width: 70%;
+  width: 85%;
+  margin: auto;
+  padding: 6.25em, 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 0;
+}
+
+/* BASIC STYLES */
+.card-container {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+header > i {
+  color: white;
+}
+
+h3, .country {
+  letter-spacing: 0.3ch;
+  font-weight: 100;
+}
+
+h3 {
+  color: white;
+}
+
+img {
+  border-radius: 5px;
+  width: 125px;
+  height: 168px;
+  flex-shrink: 0;
+}
+
+h1, .country, 
+.duration,
+.description {
+  color: #2B283A;
+}
+
+h1 {
+  margin-top: 0.5em;
+}
+
+.location-info > a {
+  color: #918E9B;
+  font-size: 0.65rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.country,
+.duration,
+.description {
+  font-size: 0.65rem;
+}
+
+.country {
+  text-transform: uppercase;
+}
+
+.country > i {
+  color: green;
+}
+
+.duration {
+  font-weight: 600;
 }
