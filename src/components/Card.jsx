@@ -11,7 +11,7 @@ export function Card(props) {
                         <i className="fa-solid fa-location-dot"></i>
                          {props.location}
                     </p>
-                    <a href={props.googleMapsUrl} target="_blank">View on Google Maps</a>
+                    <a href={props.wikiInfoUrl} target="_blank">Read more on Avatar Wiki</a>
                 </div>
                 <h1>{props.title}</h1>
                 <p className="duration">{props.startDate} – {props.endDate}</p>

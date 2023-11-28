@@ -12,7 +12,7 @@ export default function App() {
         img={item.imageUrl}
         title={item.title}
         location={item.location}
-        googleMaps={item.googleMapsUrl}
+        wikiInfo={item.wikiInfoUrl}
         startDate={item.startDate}
         endDate={item.endDate}
         description={item.description}

@@ -2,30 +2,30 @@ export default [
     {
         title: "Ba Sing Se University",
         location: "Earth Kingdom",
-        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        wikiInfoUrl: "https://avatar.fandom.com/wiki/Ba_Sing_Se_University",
         startDate: "Fall, 85 AG",
         endDate: "Spring, 100 AG",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae delectus sunt eos quisquam laudantium at nobis et, aperiam minus libero ab quia, iusto consequatur, ad nihil neque tempora accusantium maiores?",
+        imageUrl: "./src/images/avatar-university-screenshot.png"
     },
     
    {
         title: "The Air Temples",
         location: "Air Nation",
-        googleMapsUrl: "https://maps.app.goo.gl/DAkWxXpThArjASSE8",
+        wikiInfoUrl: "https://avatar.fandom.com/wiki/Air_temple",
         startDate: "Summer, 96 AG",
         endDate: "Summer, 98 AG",
-        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings.",
-        imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim doloribus fuga laborum natus molestias, labore alias excepturi, suscipit eveniet a odio! Fuga, necessitatibus commodi sint voluptas id nemo ullam officiis.",
+        imageUrl: "./src/images/southern-temple-screenshot.png"
     },
     
     {
         title: "Wan Shi Tong's Library",
         location: "Si Wong Desert / Spirit World",
-        googleMapsUrl: "https://maps.app.goo.gl/M9hM8WiyZrgy1kAB9",
+        wikiInfoUrl: "https://maps.app.goo.gl/M9hM8WiyZrgy1kAB9",
         startDate: "Spring, 100 AG",
         endDate: "????",
-        description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-        imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consectetur doloribus quo, qui ullam iure dignissimos tempora necessitatibus optio dolores minima aspernatur magni exercitationem vel sint nulla eum impedit ad?",
+        imageUrl: "./src/images/avatar-library-screenshot.png"
     }
 ]
